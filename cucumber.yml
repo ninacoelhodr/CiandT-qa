@@ -1,0 +1,9 @@
+---
+
+default: -p pretty -p opentdb -p html -p chrome
+pretty: --format pretty
+opentdb: CONTEXTO=opentdb
+html: --format html --out=report/relatorio.html
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+aplicar: --tags @aplicar
